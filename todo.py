@@ -13,7 +13,7 @@ console = Console()
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password=""
+    password="" #Add Your MySQL Password
 )
 cursor = conn.cursor()
 
